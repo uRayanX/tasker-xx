@@ -1,0 +1,36 @@
+.container {
+    display: block;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    margin-top: 0px;
+}
+
+.header {
+    text-align: center;
+    font-size: 2rem;
+    position:relative;
+    margin-top: 150px;
+    line-height: 50px;
+    color: #b99dff;
+}
+
+body {
+    font-family: Nunito Sans;
+    background-image: url("images/nat-LZ-cJcURj5I-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.input-group {
+    color: aliceblue;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    border-radius: 15px;
+    color-scheme: dark;
+}

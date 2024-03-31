@@ -1,0 +1,83 @@
+body {
+    background-color: #FFE3E3;
+    font-family: Nunito Sans;
+    background-image: url('images/vishal-bansal-6RtXaFnqElk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    margin-top: 0px;
+}
+
+.header {
+    text-align: center;
+    font-size: 2rem;
+    position:relative;
+    margin-top: 150px;
+    line-height: 50px;
+    color: #b99dff;
+}
+
+.input-group {
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    border-radius: 15px;
+    color-scheme: dark;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    background-color: #85de37;
+    border: 0px solid #000000;
+    color: black;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 300ms;
+    width: 250px;
+    text-align: center;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    background-color: #E8D7FF;
+    color: black;
+    border-color: #FFD6E0;
+    width: 250px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 300ms;
+}
+
+.SignUp {
+    color: #b99dff;
+}
+
+.btn {
+    background-color: #2D3142;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 0px solid #000000;
+    border-radius: 3px;
+    transition: 300ms;
+}
+
+.btn:hover {
+    background-color: #FFD6E0;
+    color: black;
+    border-radius: 20px;
+    border: solid 1px #ffffff;
+}
